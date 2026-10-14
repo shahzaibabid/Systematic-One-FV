@@ -1,0 +1,26 @@
+/* Active navigation and responsive audit | 2026-10 */
+body.so-inner .so-desktop-nav a.active,body.so-inner .so-desktop-nav a[aria-current="page"]{color:#74d6ff!important;position:relative}
+body.so-inner .so-desktop-nav a.active::after{content:"";position:absolute;bottom:-8px;left:0;right:0;height:2px;border-radius:4px;background:#42b9f1}
+body.so-inner .header-menu a.active,body.so-inner .header-menu a[aria-current="page"]{color:#007fb9!important;background:#eaf7fd;border-radius:10px;padding-inline:10px!important}
+body.so-inner .header{z-index:1100!important}
+body.so-inner .header .dropdown-menu{max-height:min(82vh,760px);overflow:auto;width:min(390px,calc(100vw - 28px));border:1px solid #d5e7f2;border-radius:16px;box-shadow:0 26px 70px #041b2b35}
+body.so-inner .header .dropdown-menu .header-menu a{min-height:38px;text-decoration:none}
+body.so-inner .header .btn-group{display:flex!important;flex-shrink:0!important;z-index:2}
+body.so-inner .header .toggle-menu{height:45px;width:45px}
+body.so-inner .header-wrapper{min-height:90px}
+body.so-inner .header .logo img{width:clamp(132px,13vw,188px);height:auto;max-width:100%}
+body.so-inner .so-header-right{gap:clamp(12px,1.4vw,24px)!important}
+body.so-inner .so-desktop-nav{gap:clamp(10px,1.2vw,20px)!important}
+body.so-inner .so-desktop-nav a{font-size:clamp(11px,.95vw,14px)!important}
+body.so-inner .so-header-cta{padding:10px 15px!important;font-size:13px!important}
+body.so-inner .page-wrapper,body.so-inner .page-wrapper section{min-width:0}
+body.so-inner img,body.so-inner video{max-width:100%}
+body.so-inner .page-wrapper .row>*{min-width:0}
+body.so-inner .page-wrapper h1,body.so-inner .page-wrapper h2,body.so-inner .page-wrapper h3,body.so-inner .page-wrapper h4{overflow-wrap:break-word}
+body.so-inner .page-wrapper .btn{max-width:100%;white-space:normal}
+body.so-inner .footer .row{row-gap:28px}
+@media(min-width:1200px){body.so-inner .header .btn-group{display:flex!important}body.so-inner .so-desktop-nav{display:flex!important}}
+@media(min-width:1200px) and (max-width:1399px){body.so-inner .header>.container{width:calc(100% - 30px)!important;padding-inline:8px!important}body.so-inner .header-wrapper{gap:10px!important}body.so-inner .so-header-right{gap:10px!important}body.so-inner .so-desktop-nav{gap:10px!important}body.so-inner .so-desktop-nav a{font-size:11px!important}body.so-inner .so-header-cta{padding:9px 12px!important}}
+@media(max-width:1199px){body.so-inner .so-desktop-nav{display:none!important}body.so-inner .header .btn-group{display:flex!important}body.so-inner .page-wrapper>section:not(.banner-section){width:calc(100% - 36px)!important;margin:18px auto 25px!important;padding:clamp(35px,5vw,58px) clamp(15px,3vw,30px)!important}body.so-inner .page-wrapper>section:not(.banner-section)>.container{padding-inline:12px!important}body.so-inner .page-wrapper>.banner-section{padding-top:170px!important;padding-bottom:58px!important}}
+@media(max-width:767px){body.so-inner .header-wrapper{min-height:72px}body.so-inner .header>.container{width:calc(100% - 18px)!important;padding-inline:8px!important}body.so-inner .header .logo img{width:140px}body.so-inner .so-header-cta{display:none!important}body.so-inner .so-header-right{gap:8px!important}body.so-inner .header .dropdown-menu{position:fixed!important;top:75px!important;left:14px!important;right:14px!important;width:auto!important;max-height:calc(100dvh - 92px);transform:none!important;margin:0!important}body.so-inner .header .dropdown-menu .hstack.gap-3{flex-wrap:wrap}body.so-inner .page-wrapper>section:not(.banner-section){width:calc(100% - 20px)!important;margin:12px auto 22px!important;padding:32px 10px!important}body.so-inner .page-wrapper>.banner-section{min-height:490px!important;padding:125px 0 42px!important}body.so-inner .page-wrapper>.banner-section>.container{padding-inline:22px!important}body.so-inner .banner-section h1{font-size:clamp(39px,10.5vw,63px)!important}body.so-inner .banner-section .row p{font-size:15px!important;line-height:1.55!important}body.so-inner .page-wrapper .row{row-gap:20px}body.so-inner .page-wrapper .portfolio-details,body.so-inner .page-wrapper .resources-details{padding:18px}body.so-inner .agency-contact-band .container{align-items:flex-start!important;gap:18px!important}body.so-inner .agency-contact-band a{font-size:clamp(26px,7vw,40px)!important}}
+@media(max-width:380px){body.so-inner .header .logo img{width:118px}body.so-inner .header .toggle-menu{width:42px;height:42px}body.so-inner .page-wrapper>.banner-section>.container{padding-inline:16px!important}}

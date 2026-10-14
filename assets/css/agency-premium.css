@@ -1,0 +1,109 @@
+/* Systematic One | Agency Edition. Keep original company copy and colors. */
+:root{--agency-ice:#d9f5ff;--agency-accent:#48bffd;--agency-dark:#061423}
+body{overflow-x:hidden}::selection{background:#39b7f5;color:#041525}
+.header{transition:background .35s,box-shadow .35s}.header.agency-scrolled{background:rgba(5,16,29,.97)!important;box-shadow:0 15px 55px #05132030}.so-desktop-nav a{letter-spacing:.02em}.so-header-cta{border-radius:4px;transition:background .3s,transform .3s}.so-header-cta:hover{background:#fff;color:#081b2e;transform:translateY(-2px)}
+.so-hero{min-height:900px;padding:170px 0 100px;background:radial-gradient(circle at 75% 32%,#16466c 0%,transparent 37%),radial-gradient(circle at 23% 95%,#103d63 0%,transparent 36%),#061422}.so-hero:before{background-size:94px 94px;opacity:.3}.agency-grain{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.13;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.24'/%3E%3C/svg%3E")}.agency-index{position:absolute;top:137px;right:6%;color:#a9cadb;opacity:.6;font-size:10px;letter-spacing:.24em;font-weight:700}.so-hero-inner{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:30px;max-width:1410px}.so-hero-copy{position:relative;z-index:4}.so-hero-mini{border-radius:3px;color:#e6f5fe;border-color:#ffffff28}.so-hero .so-eyebrow{font-size:10px;letter-spacing:.24em}.so-hero h1.agency-hero-title{font-size:clamp(76px,8.4vw,142px);letter-spacing:-.09em;line-height:.87;font-weight:750;margin:20px 0 28px;overflow:visible}.agency-line{display:block;width:max-content;max-width:100%;color:#fff}.agency-title-accent{position:relative;color:#59c8ff}.agency-spark{position:absolute;font-size:clamp(28px,4vw,55px);font-style:normal;line-height:1;top:4px;right:-55px;color:#c0eeff;font-weight:400;animation:agency-spark 18s linear infinite}.agency-kicker{font-size:10px;letter-spacing:.24em;color:#7eb4ce;font-weight:700;margin-bottom:14px}.so-hero-dynamic{font-weight:450;letter-spacing:-.05em;font-size:clamp(22px,2.8vw,37px);margin:0 0 20px}.so-lead{max-width:510px;font-size:17px!important;line-height:1.8!important}.so-actions a{border-radius:4px;padding:18px 23px}.so-primary-button{background:#4dc3fb}.so-proof{margin-top:54px}.agency-hero-side{position:absolute;right:18px;top:44%;writing-mode:vertical-rl;color:#91b4cb66;font-size:10px;letter-spacing:.25em}.so-hero-visual{height:590px}.so-dashboard{max-width:615px;height:420px;border-radius:7px;border:8px solid #1a354c;transform:perspective(1100px) rotateY(-11deg) rotateX(5deg);box-shadow:0 45px 130px #020911cc,0 0 0 1px #6ecaff40}.so-visual-grid{background-size:26px 26px}.agency-visual-label{position:absolute;top:0;left:6%;font-size:10px;font-weight:750;letter-spacing:.24em;color:#b1d7ed}.agency-visual-ring{position:absolute;border:1px solid #52c0f51d;border-radius:50%;width:690px;height:690px;pointer-events:none}.agency-ring-b{width:485px;height:485px;border-style:dashed;opacity:.8}.so-floating-badge,.so-data-chip{border-radius:4px}.so-connect-pill{border-radius:4px}.so-hero-bottom{background:#ffffff04}.so-hero-bottom .container{letter-spacing:.22em}.agency-marquee{overflow:hidden;background:#55c7f8;color:#061524;border-block:1px solid #8edaff}.agency-marquee-track{display:flex;align-items:center;gap:35px;width:max-content;white-space:nowrap;font-size:clamp(18px,2.2vw,30px);font-weight:800;letter-spacing:-.05em;padding:19px 0;animation:agency-marquee 32s linear infinite}.agency-marquee-track span{font-size:30px;font-weight:400}.so-value-ribbon{background:#071d30}.so-value-ribbon .container{padding-top:33px;padding-bottom:33px}.agency-section-count{display:flex;align-items:center;gap:15px;padding:35px max(24px,calc((100vw - 1320px)/2));background:#fff;font-size:11px;font-weight:800;letter-spacing:.18em;color:#0b3852}.agency-section-count span{color:#54bdf3}.agency-section-count i{margin-left:12px;height:1px;flex:1;background:#d8e8f0}.agency-count-dark{background:#081826;color:#d0e6f7}.agency-count-dark i{background:#335064}
+.page-wrapper>section:not(.so-hero){position:relative}.page-wrapper>section:not(.so-hero) h2{font-size:clamp(37px,4vw,64px)!important;line-height:1.06!important;letter-spacing:-.062em!important;font-weight:750}.page-wrapper>section:not(.so-hero) p{letter-spacing:-.005em}.stats-facts{padding-top:80px!important;padding-bottom:105px!important}.featured-projects,.services,.why-choose-us,.testimonial,.meet-our-team,.pricing-section,.faq,.Recent-news,.get-in-touch{padding-top:110px!important;padding-bottom:115px!important}.featured-projects{background:#edf5fa!important}.featured-projects .portfolio-img{border-radius:5px!important;overflow:hidden}.featured-projects .portfolio{transform-origin:center;transition:transform .5s cubic-bezier(.2,.8,.2,1)}.featured-projects .portfolio:hover{transform:translateY(-9px)}.featured-projects .portfolio-img img{transition:transform .85s cubic-bezier(.2,.8,.2,1)}.featured-projects .portfolio:hover img{transform:scale(1.08)}.services{background:#081726!important}.services .card{border-radius:5px!important}.page-wrapper .badge.text-bg-dark{border-radius:3px!important}.stats-facts .col-md-6.col-lg-4>.d-flex{border-radius:5px!important}.pricing-section .card,.page-wrapper .pricing-card{border-radius:5px!important}.faq .accordion-item{border-radius:4px!important}.faq .accordion-button{font-size:17px;letter-spacing:-.02em}.get-in-touch .form-control{border-radius:4px!important}
+.agency-contact-band{background:#50bef5;color:#051627;padding:92px 0}.agency-contact-band .container{display:flex;align-items:center;justify-content:space-between;gap:25px}.agency-contact-band .container>span{font-size:11px;font-weight:800;letter-spacing:.22em}.agency-contact-band a{font-size:clamp(32px,5vw,76px);font-weight:800;letter-spacing:-.07em;color:#061728;line-height:1.05}.agency-contact-band a span{display:inline-block;transition:transform .3s}.agency-contact-band a:hover span{transform:translate(9px,-9px)}.footer{background:#061421!important}.so-scroll-progress{height:2px;background:#4ec8ff}
+@keyframes agency-marquee{to{transform:translateX(-50%)}}@keyframes agency-spark{to{transform:rotate(360deg)}}
+@media(max-width:1199px){.agency-hero-side{display:none}.so-hero h1.agency-hero-title{font-size:clamp(67px,9vw,110px)}.so-hero-visual{height:490px}.so-dashboard{height:375px}.agency-spark{right:-36px}}@media(max-width:991px){.so-hero{min-height:auto;padding-top:155px}.so-hero-visual{height:500px}.so-hero h1.agency-hero-title{font-size:clamp(80px,13vw,120px)}.agency-index{display:none}.agency-contact-band .container{align-items:flex-start;flex-direction:column}}@media(max-width:600px){.so-hero{padding-top:132px}.so-hero h1.agency-hero-title{font-size:clamp(65px,15.5vw,90px);margin:10px 0 24px}.agency-spark{font-size:27px;right:-27px}.agency-kicker{font-size:9px;letter-spacing:.15em}.so-hero-dynamic{font-size:23px}.so-hero-visual{height:375px}.so-dashboard{height:300px}.agency-visual-label{top:7px}.agency-visual-ring{width:440px;height:440px}.agency-ring-b{width:310px;height:310px}.so-floating-badge{top:25px}.agency-section-count{padding:23px 22px}.featured-projects,.services,.why-choose-us,.testimonial,.meet-our-team,.pricing-section,.faq,.Recent-news,.get-in-touch{padding-top:72px!important;padding-bottom:80px!important}.page-wrapper>section:not(.so-hero) h2{font-size:clamp(32px,9vw,43px)!important}.agency-contact-band{padding:65px 0}.agency-marquee-track{font-size:20px;padding:13px 0}}
+@media(prefers-reduced-motion:reduce){.agency-marquee-track,.agency-spark{animation:none}.so-dashboard{animation:none!important}.so-floating-badge,.so-connect-pill,.so-data-chip{animation:none!important}}
+
+
+/* SYSTEMATIC ONE | REAL CONTAINED LAYOUT | 14 OCT 2026
+   Key difference: the SECTION ITSELF is narrower, not just its interior.
+   Hero, services, animated marquee / value ribbon and CTA remain full bleed. */
+:root{--so-canvas:#f7f9fc;--so-outer:clamp(22px,5.25vw,96px);--so-section-width:1360px;--so-inner:clamp(24px,4.4vw,74px)}
+html,body{background:var(--so-canvas)}
+.page-wrapper{background:var(--so-canvas);overflow:hidden}
+/* On large monitors a deliberate framed editorial rhythm. */
+@media(min-width:992px){
+  .page-wrapper>section.stats-facts,
+  .page-wrapper>section.featured-projects,
+  .page-wrapper>section.why-choose-us,
+  .page-wrapper>section.testimonial,
+  .page-wrapper>section.meet-our-team,
+  .page-wrapper>section.pricing-section,
+  .page-wrapper>section.faq,
+  .page-wrapper>section.Recent-news,
+  .page-wrapper>section.get-in-touch{
+    width:calc(100% - 2 * var(--so-outer))!important;
+    max-width:var(--so-section-width);
+    margin-left:auto!important;margin-right:auto!important;
+    position:relative;
+    border-radius:0;
+    padding:clamp(74px,7.2vw,120px) var(--so-inner)!important;
+    box-sizing:border-box;
+    isolation:isolate;
+  }
+  .page-wrapper>section.stats-facts,
+  .page-wrapper>section.why-choose-us,
+  .page-wrapper>section.meet-our-team,
+  .page-wrapper>section.faq,
+  .page-wrapper>section.get-in-touch{background:#fff!important}
+  .page-wrapper>section.featured-projects,
+  .page-wrapper>section.testimonial,
+  .page-wrapper>section.pricing-section,
+  .page-wrapper>section.Recent-news{background:#eaf2f8!important}
+  /* Each background ends at the section edge; no fake full bleed stripes. */
+  .page-wrapper>section:not(.so-hero):not(.services)>.container,
+  .page-wrapper>section:not(.so-hero):not(.services)>.d-flex>.container{
+    max-width:100%!important;width:100%!important;padding-left:0!important;padding-right:0!important;
+  }
+  .page-wrapper>section.stats-facts{padding-top:86px!important;padding-bottom:90px!important}
+  .page-wrapper>section.featured-projects{padding-top:100px!important;padding-bottom:110px!important}
+  .page-wrapper>section.testimonial{padding-top:92px!important;padding-bottom:98px!important}
+  .page-wrapper>section.meet-our-team{padding-top:96px!important;padding-bottom:100px!important}
+  .page-wrapper>section.get-in-touch{padding-top:94px!important;padding-bottom:104px!important}
+  .page-wrapper>section.services{width:100%;max-width:none;margin:0;padding-top:115px!important;padding-bottom:115px!important}
+  .page-wrapper>section.services>.container{width:calc(100% - 2 * var(--so-outer));max-width:1230px}
+}
+/* Whitespace outside each independent, intentionally framed section. */
+.page-wrapper>.agency-section-count{width:calc(100% - 2 * var(--so-outer));max-width:var(--so-section-width);margin:0 auto!important;padding:44px clamp(24px,3vw,45px) 24px!important;background:transparent!important;box-sizing:border-box}
+.page-wrapper>.agency-section-count.agency-count-dark{width:100%;max-width:none;padding-left:max(var(--so-outer),calc((100vw - 1230px)/2))!important;padding-right:max(var(--so-outer),calc((100vw - 1230px)/2))!important;background:#081826!important;margin-top:32px!important}
+.page-wrapper>.agency-section-count.agency-count-dark + .services{margin-top:0}
+.page-wrapper>.so-section-divider{max-width:var(--so-section-width);width:calc(100% - 2 * var(--so-outer));margin-inline:auto}
+.page-wrapper>section:not(.so-hero):not(.services){margin-bottom:20px!important}
+/* Lighter trim, sharp architectural blocks rather than floating pills/cards. */
+.page-wrapper>section.featured-projects,
+.page-wrapper>section.testimonial,
+.page-wrapper>section.pricing-section,
+.page-wrapper>section.Recent-news{box-shadow:inset 0 0 0 1px rgba(18,57,87,.035)}
+.page-wrapper>section.featured-projects .portfolio-img{border-radius:8px!important}
+.page-wrapper>section.pricing-section .card{border-radius:8px!important}
+/* Full-width accent CTA creates a visual pause before the contained contact form. */
+.agency-contact-band{width:100%!important;max-width:none!important;margin-top:35px}
+/* tablet: contained sections without squeezing text into tiny columns */
+@media(min-width:768px) and (max-width:991px){
+  .page-wrapper>section.stats-facts,.page-wrapper>section.featured-projects,
+  .page-wrapper>section.why-choose-us,.page-wrapper>section.testimonial,
+  .page-wrapper>section.meet-our-team,.page-wrapper>section.pricing-section,
+  .page-wrapper>section.faq,.page-wrapper>section.Recent-news,
+  .page-wrapper>section.get-in-touch{
+    width:calc(100% - 64px)!important;margin-inline:auto!important;
+    padding:72px 35px!important;background:#fff;
+  }
+  .page-wrapper>section.featured-projects,.page-wrapper>section.testimonial,
+  .page-wrapper>section.pricing-section,.page-wrapper>section.Recent-news{background:#eaf2f8!important}
+  .page-wrapper>section:not(.so-hero):not(.services)>.container,
+  .page-wrapper>section:not(.so-hero):not(.services)>.d-flex>.container{width:100%!important;max-width:100%!important;padding:0!important}
+}
+@media(max-width:767px){
+  :root{--so-outer:17px}
+  .page-wrapper>section.stats-facts,.page-wrapper>section.featured-projects,
+  .page-wrapper>section.why-choose-us,.page-wrapper>section.testimonial,
+  .page-wrapper>section.meet-our-team,.page-wrapper>section.pricing-section,
+  .page-wrapper>section.faq,.page-wrapper>section.Recent-news,
+  .page-wrapper>section.get-in-touch{
+    width:calc(100% - 34px)!important;margin-inline:auto!important;
+    padding:62px 18px!important;background:#fff!important;
+  }
+  .page-wrapper>section.featured-projects,.page-wrapper>section.testimonial,
+  .page-wrapper>section.pricing-section,.page-wrapper>section.Recent-news{background:#eaf2f8!important}
+  .page-wrapper>section:not(.so-hero):not(.services)>.container,
+  .page-wrapper>section:not(.so-hero):not(.services)>.d-flex>.container{width:100%!important;max-width:100%!important;padding:0!important}
+  .page-wrapper>.agency-section-count{width:calc(100% - 34px);padding:32px 14px 18px!important}
+  .page-wrapper>.agency-section-count.agency-count-dark{width:100%;padding:29px 25px!important}
+  .page-wrapper>section.services{padding:75px 0!important}
+  .agency-contact-band{margin-top:22px}
+}

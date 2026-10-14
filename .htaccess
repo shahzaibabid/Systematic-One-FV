@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+
+# Serve existing files and folders normally
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Home
+RewriteRule ^$ index.html [L]
+
+# Clean HTML URLs: /about -> /about.html
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([A-Za-z0-9_-]+)/?$ $1.html [L]
+
+ErrorDocument 404 /404.html

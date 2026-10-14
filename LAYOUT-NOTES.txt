@@ -1,0 +1,5 @@
+Systematic One | contained redesign 14 October 2026
+
+Actual section widths have been reduced. On desktop, all content sections except the hero and dark services block are contained within generous side margins. The marquee, capability ribbon, accent CTA and footer remain full bleed as visual separators. Existing words, imagery, brand colours and GSAP scripts are unchanged.
+
+Open index.html to preview.

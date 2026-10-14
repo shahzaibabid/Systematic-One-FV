@@ -1,0 +1,38 @@
+/* Homepage-only hero: stack copy first, dashboard beneath it on tablet/mobile. */
+@media (max-width: 991.98px) {
+  .so-hero { height:auto!important; min-height:0!important; padding:132px 0 78px!important; overflow:hidden; }
+  .so-hero .so-hero-inner { display:flex!important; flex-direction:column!important; align-items:stretch!important; gap:35px!important; width:100%; }
+  .so-hero .so-hero-copy { position:relative!important; width:100%!important; max-width:720px!important; padding:0!important; margin:0 auto!important; transform:none!important; }
+  .so-hero .so-hero-visual { position:relative!important; display:flex!important; flex:none!important; align-items:center!important; justify-content:center!important; width:100%!important; max-width:660px!important; height:440px!important; min-height:0!important; margin:0 auto!important; inset:auto!important; transform:none!important; }
+  .so-hero .so-dashboard { position:relative!important; width:min(94%,560px)!important; max-width:100%!important; height:355px!important; margin:0 auto!important; }
+  .so-hero .agency-visual-ring,.so-hero .so-hero-orbit { pointer-events:none; }
+}
+@media (max-width: 600px) {
+  .so-hero { padding:114px 0 55px!important; }
+  .so-hero .so-hero-inner { gap:27px!important; padding-left:22px!important; padding-right:22px!important; }
+  .so-hero .so-hero-copy { max-width:100%!important; }
+  .so-hero h1.agency-hero-title { font-size:clamp(52px,13.5vw,76px)!important; line-height:.94!important; margin:12px 0 22px!important; overflow-wrap:normal; }
+  .so-hero .so-lead { max-width:100%; font-size:15px!important; line-height:1.65; }
+  .so-hero .so-actions { width:100%; }
+  .so-hero .so-hero-visual { height:315px!important; margin:0 auto!important; }
+  .so-hero .so-dashboard { width:100%!important; height:258px!important; transform:none!important; }
+  .so-hero .so-floating-badge { right:0!important; top:4px!important; }
+  .so-hero .so-data-chip { right:0!important; }
+  .so-hero .agency-spark { right:0!important; }
+}
+@media (max-width: 390px) {
+  .so-hero .so-hero-inner { padding-left:18px!important; padding-right:18px!important; }
+  .so-hero h1.agency-hero-title { font-size:clamp(49px,13vw,59px)!important; }
+  .so-hero .so-hero-visual { height:290px!important; }
+  .so-hero .so-dashboard { height:234px!important; }
+}
+
+/* Keep the first hero label fully below the fixed header on mobile. */
+@media (max-width: 991.98px) {
+  .so-hero { padding-top: 174px !important; }
+  .so-hero .so-hero-mini { position: relative; z-index: 2; margin-top: 0 !important; max-width: 100%; box-sizing: border-box; }
+}
+@media (max-width: 600px) {
+  .so-hero { padding-top: 158px !important; }
+  .so-hero .so-hero-mini { margin-bottom: 18px !important; }
+}
